@@ -116,7 +116,7 @@ qa-ai-agent/
 Clone o repositório e acesse a pasta:
 
 ```powershell
-git clone URL_DO_REPOSITORIO
+git clone https://github.com/mpsuda/qa-ai-agent.git
 cd qa-ai-agent
 ```
 
