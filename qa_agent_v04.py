@@ -859,7 +859,7 @@ else:
     print("\nFASE 2 NÃO EXECUTADA:")
     print("Nenhum requisito foi liberado pelo gate.")
 
-if revisao_plano.casos_aprovados:
+if requisitos_liberados and revisao_plano.casos_aprovados:
     plano_bdd = gerar_plano_bdd(plano_de_testes)
 
     print("\nFASE 3 — CENÁRIOS BDD:")
